@@ -1,6 +1,6 @@
 SRL:
 1. should be capable of representing every real logical system.
-2. something is true in a real logical system <=> it is provable within the srl representation using strictly defined rules.
+2. something is true in a real logical system <=> it is provable within the srl representation using strictly defined rules, which do not depend on the logical system, but have global validity.
 
 These are the interpretations:
 - [data-repr-interpretation]
