@@ -1,0 +1,11 @@
+data-repr-interpretation is an interpretation of the first definition of the [main]-file.
+
+It means:
+
+SRL is a [system-lang].
+
+and
+
+There should be no language L,
+which can represent the [data-lang] code D with finite L code,
+where D is not representable with finite SRL code.

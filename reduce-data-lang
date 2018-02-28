@@ -1,0 +1,5 @@
+If you reduce a [data-lang] A to another [data-lang] B,
+you show, that every system representable in infinite A code,
+is also representable in infinite B code.
+
+This is normally done feature-wise.

@@ -1,0 +1,9 @@
+SRL:
+1. should be capable of representing every real logical system.
+2. something is true in a real logical system <=> it is provable within the srl representation using strictly defined rules.
+
+These are the interpretations:
+- [data-repr-interpretation]
+- [s-sl-interpretation]
+
+using prorg v0.0.2

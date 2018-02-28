@@ -1,0 +1,5 @@
+system-lang = System Language.
+
+A system-lang, defines a syntax and
+an algorithm to convert finite system-lang code into possibly infinite [data-lang] code.
+This algorithm represents, how to prove in this system-lang.

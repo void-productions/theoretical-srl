@@ -1,0 +1,18 @@
+Die s-sl-interpretation ist eine Interpretation der [main]-Anforderung:
+
+Sei R eine Menge an reellen Systemen.
+Sei RL: R -> R eine Abbildung, welche die Eingabe unter den Operationen der Logik abschließt.
+  Damit gilt RL ist idempotent <=> RL(a) = RL(RL(a)).
+
+Sei S eine Menge an SRL-Systemen.
+Sei SL: S -> S eine Abbildung, welche die Eingabe unter den Operationen der SRL-Logik abschließt.
+  Damit gilt SL ist idempotent <=> SL(a) = SL(SL(a)).
+
+Sei die "Abstraktion" A: R -> S eine bijektive Abbildung, welche das Eingabe-System in ein SRL-System umwandelt.
+
+Es soll für alle r aus R gelten, dass:
+  A(RL(r)) = SL(A(r))
+
+R existiert und muss nicht definiert werden.
+RL und A sind vermutlich nicht formal definierbar, sie müssen im konkreten Fall vom Menschen erstellt werden.
+S und SL müssen unabhängig von R, RL und A, formal durch SRL definiert werden, um die oben angeführten Bedingungen zu erfüllen.

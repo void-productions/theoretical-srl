@@ -1,0 +1,12 @@
+data-lang = Data Language.
+
+A complete data-lang is a any language, which is capable of describing any system with *infinite* code.
+Data Language is a language required for the [data-repr-interpretation].
+There is no concept of proving in data-languages.
+
+A Data Language L1 is complete,
+if there is no other Language L2,
+which can represent the [data-lang] code D in infinite code,
+which can't be represented in L1 in inifinite code.
+
+To prove that, you can [reduce-data-lang]s to each other.
