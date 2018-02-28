@@ -1,0 +1,38 @@
+\documentclass[11pt]{article}
+
+\usepackage{amsmath}
+
+\begin{document}
+
+\section{System Language}
+\subsection{Definition:}
+
+For a System Language L, $S_L$ is the set of syntactically correct formulas (for example given by a formal-language).\\
+$I_L(X)$ with $X \subseteq S_L$ is a Function returning a $R \subseteq S_L$ with R containing all conclusions possible with L based on the axioms X.
+
+\subsection{Properties:}
+
+$I_L$ is idempotent:
+
+\[ I_L(X) = I_L(I_L(X)) \]
+
+\section{Reduction}
+
+Given the System Languages L und M, M is reducable to L ($L \sqsupseteq M$), if and only if the following formula is valid:
+\begin{align*}
+L \sqsupseteq M \iff &\exists h: S_L \rightarrow S_M \\
+&\forall A \subseteq S_M \\
+&h^*(I_M(A)) = I_L(h^*(A))
+\end{align*}
+
+where
+
+\begin{align*}
+&h^*(\emptyset) = \emptyset \\
+&h^*(X \cup \{a\}) = h^*(X) \cup \{h(a)\}
+\end{align*}
+
+\section{Perfect Language}
+A System Language L is a Perfect Language, if and only if all other System Languages can be reduced to L.
+
+\end{document}
